@@ -1,0 +1,5 @@
+CC = gcc
+CFLAGS = -g -Wall
+
+arch2.o: arch2.c arch1.h
+	$(CC) $(CFLAGS) -c arch2.c
