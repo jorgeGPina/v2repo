@@ -1,4 +1,0 @@
-objetivo: dependencia_1 ... dependencia_n
-<TAB> orden_1
-<TAB> :::
-<TAB> orden_n

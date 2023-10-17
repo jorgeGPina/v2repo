@@ -1,1 +1,0 @@
-int sumar(int, int);

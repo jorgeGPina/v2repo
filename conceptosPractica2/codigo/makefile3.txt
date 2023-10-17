@@ -1,6 +1,0 @@
-CC = gcc
-CFLAGS = -g -Wall
-
-saludos: saludos.o bienvenida.o despedida.o
-	$(CC) $(CFLAGS) saludos.c bienvenida.c despedida.c -o saludos
-	
