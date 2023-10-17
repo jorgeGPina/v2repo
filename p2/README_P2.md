@@ -160,17 +160,18 @@ estudiantes deben realizar una breve prueba individual de evaluación de
 la práctica (**$PL_{2}$**) en la plataforma.
 
 ## Tarea 3 - Prueba individual
-
-La prueba $PL_{2}$ se realizará en horario de laboratorio, en el grupo
-al que pertenezca cada alumno. La fecha y hora, así como el formato de
-la prueba, como las restantes, se detallará tanto en la plataforma
-Blackboard como en el propio laboratorio, el primer día de realización
-de la práctica. Los alumnos pueden consultar la fecha de esta prueba en
-la página siguiente de la Escuela Politécnica Superior:
-<http://escuelapolitecnica.uah.es/estudiantes/gcalendar-2GII.asp>. Cabe
-recordar que estas preguntas pueden estar relacionadas con alguna fase
-que ha realizado un compañero por lo que es imprescindible comprender
-toda la práctica desde todos los roles.
+<div>
+    La prueba $PL_{2}$ se realizará en horario de laboratorio, en el grupo
+    al que pertenezca cada alumno. La fecha y hora, así como el formato de
+    la prueba, como las restantes, se detallará tanto en la plataforma
+    Blackboard como en el propio laboratorio, el primer día de realización
+    de la práctica. Los alumnos pueden consultar la fecha de esta prueba en
+    la página siguiente de la Escuela Politécnica Superior:<br>
+    <a href="http://escuelapolitecnica.uah.es/estudiantes/gcalendar-2GII.asp">Calendario de Actividades</a><br>
+    Cabe recordar que estas preguntas pueden estar relacionadas con alguna fase
+    que ha realizado un compañero por lo que es imprescindible comprender
+    toda la práctica desde todos los roles.
+</div>
 
 ## Evaluación
 
