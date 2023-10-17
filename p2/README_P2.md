@@ -140,28 +140,7 @@ plataforma Blackboard.\
 **La práctica debe desarrollarse obligatoriamente usando un repositorio
 GitHub**.
 
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-  .sepia-box {
-    background-color: #704214;
-    padding: 10px;
-    color: white;
-    text-align: center;
-  }
-</style>
-</head>
-<body>
-  <div class="sepia-box">
-    <b>¡IMPORTANTE!</b><br>
-     LOS ESTUDIANTES DEBEN SER CAPACES DE COMPRENDER Y APLICAR <u>TODAS LAS TAREAS</u> DE CUALQUIER FASE <u>INDEPENDIENTEMENTE DE SU</u> <b>ROL</b> EN CADA FASE;
-    CUALQUIER TAREA DE LA PRÁCTICA PUEDE SER OBJETO DE PREGUNTA EN LAS DIFERENTES PRUEBAS DE EVALUACIÓN.
-  </div>
-</body>
-</html>
-
+<span style="color: red;">Este texto está en rojo.</span>
 
 <div style="background-color: #704214; padding: 10px; color: white; text-align: center;">
     <b>¡IMPORTANTE!</b><br>
