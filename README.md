@@ -110,9 +110,7 @@ Para determinar las tareas de cada alumno, a continuación se ilustran las difer
 posibilidades en las Tablas 1, 2 y 3. En caso de que dos o más alumnos no se pongan
 de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera aleatoria.
 
-:::
-  : División de tareas por usuario (4 alumnos).
-:::
+  Tabla 1: División de tareas por usuario (4 alumnos)
 
 | **USUARIO**  | **FASE 1** | **FASE 2** | **FASE 3** | **FASE 4** | **FASE 5** | **FASE 6** | **FASE 7** |
 |--------------|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
@@ -121,24 +119,22 @@ de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera al
 | **ALUMNO 3** |    D       |       L    |      E     |      P     |      P     |      D     |      L     |
 | **ALUMNO 4** |    E       |       D    |      L     |      D     |      L     |      E     |      P     |
 
-::: {#table:eleccionActiv2}
-   **USUARIO**    **FASE 1**   **FASE 2**   **FASE 3**   **FASE 4**   **FASE 5**   **FASE 6**   **FASE 7**
-  -------------- ------------ ------------ ------------ ------------ ------------ ------------ ------------
-   **ALUMNO 1**     L y D          P            E          L y D          E          L y D          P
-   **ALUMNO 2**       P            E          L y D          P          L y D          P            E
-   **ALUMNO 3**       E          L y D          P            E            P            E          L y D
+Tabla 2: División de tareas por usuario (3 alumnos)
 
-  : División de tareas por usuario (3 alumnos).
-:::
+| **USUARIO**  | **FASE 1** | **FASE 2** | **FASE 3** | **FASE 4** | **FASE 5** | **FASE 6** | **FASE 7** |
+|--------------|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| **ALUMNO 1** |   L y D    |      P     |      E     |      E     |      E     |    L y D   |      P     |
+| **ALUMNO 2** |     P      |      E     |    L y D   |    L y D   |    L y D   |      P     |      E     |
+| **ALUMNO 3** |     E      |    L y D   |      P     |      P     |      P     |      E     |    L y D   |
 
-::: {#table:eleccionActiv3}
-   **USUARIO**    **FASE 1**   **FASE 2**   **FASE 3**   **FASE 4**   **FASE 5**   **FASE 6**   **FASE 7**
-  -------------- ------------ ------------ ------------ ------------ ------------ ------------ ------------
-   **ALUMNO 1**     P y E        E y L        L y P        D y P        D y E        P y L        D y E
-   **ALUMNO 2**     L y D        D y P        D y E        L y E        P y L        D y E        P y L
 
-  : División de tareas por usuario (2 alumnos).
-:::
+Tabla 3: División de tareas por usuario (2 alumnos)
+
+| **USUARIO**  | **FASE 1** | **FASE 2** | **FASE 3** | **FASE 4** | **FASE 5** | **FASE 6** | **FASE 7** |
+|--------------|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| **ALUMNO 1** |   P y E    |    E y L   |    L y P   |    D y P   |    D y E   |    P y L   |    D y E   |
+| **ALUMNO 2** |   L y D    |    D y P   |    D y E   |    L y E   |    P y L   |    D y E   |    P y L   |
+
 
 ## Tarea 2 - Planificación
 
@@ -152,14 +148,10 @@ plataforma Blackboard.\
 GitHub**.
 
  
-
-::: bclogo
-**¡IMPORTANTE!** **LOS ESTUDIANTES DEBEN SER CAPACES DE COMPRENDER Y
-APLICAR [TODAS LAS TAREAS]{.underline} DE CUALQUIER FASE
-[INDEPENDIENTEMENTE DE SU]{.underline} [ROL]{.underline} EN CADA FASE;
+**¡IMPORTANTE!**
+LOS ESTUDIANTES DEBEN SER CAPACES DE COMPRENDER Y APLICAR __TODAS LAS TAREAS__ DE CUALQUIER FASE __INDEPENDIENTEMENTE DE SU__ **ROL** EN CADA FASE;
 CUALQUIER TAREA DE LA PRÁCTICA PUEDE SER OBJETO DE PREGUNTA EN LAS
-DIFERENTES PRUEBAS DE EVALUACIÓN.**
-:::
+DIFERENTES PRUEBAS DE EVALUACIÓN.
 
 # Durante la realización de la práctica
 
