@@ -2,19 +2,11 @@
 
 ## Antes de comenzar la práctica
 
-Esta práctica se realizará, en general, en **grupos de cuatro
-estudiantes**. Se valorará con el profesor posibles excepciones, de
-acuerdo a situaciones particulares, siempre sin exceder el grupo de 4
-alumnos. Asimismo, **los miembros de cada grupo deben pertenecer al
-mismo horario de laboratorio** salvo motivos justificados que también
-estimará el profesor.
+Esta práctica se realizará, en general, en **grupos de cuatro estudiantes**. Se valorará con el profesor posibles excepciones, de acuerdo a situaciones particulares, siempre sin exceder el grupo de 4 alumnos. Asimismo, **los miembros de cada grupo deben pertenecer al mismo horario de laboratorio** salvo motivos justificados que tambiénestimará el profesor.
 
 ## Tarea 1 - Organización
 
-La primera tarea de los estudiantes para esta práctica será determinar
-cuáles serán sus respectivas responsabilidades en cada una de las siete
-fases obligatorias de la práctica. Cada estudiante puede desempeñar **en
-cada fase** uno de los siguientes roles:
+La primera tarea de los estudiantes para esta práctica será determinar cuáles serán sus respectivas responsabilidades en cada una de las siete fases obligatorias de la práctica. Cada estudiante puede desempeñar **en cada fase** uno de los siguientes roles:
 
 -   **Líder (L)**: Será el responsable final de que la fase se realice
     correctamente. Esto incluye, entre otras tareas:
@@ -97,9 +89,7 @@ Las fases de la práctica son las siguientes:
 
 7.  Implementación de tuberías o *pipes*.
 
-Para determinar las tareas de cada alumno, a continuación se ilustran las diferentes
-posibilidades en las Tablas 1, 2 y 3. En caso de que dos o más alumnos no se pongan
-de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera aleatoria.
+Para determinar las tareas de cada alumno, a continuación se ilustran las diferentes posibilidades en las Tablas 1, 2 y 3. En caso de que dos o más alumnos no se pongan de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera aleatoria.
 
   Tabla 1: División de tareas por usuario (4 alumnos)
 
@@ -129,14 +119,7 @@ Tabla 3: División de tareas por usuario (2 alumnos)
 
 ## Tarea 2 - Planificación
 
-Los estudiantes deberán comunicar a los profesores quiénes son los
-integrantes del grupo así como el rol que ha desempeñado cada uno de
-ellos en las diferentes fases. Para ello, tras finalizar la práctica,
-deberán añadir esta información en un archivo denominado
-**practica2.odt** que deberá formar parte del envío de la práctica en la
-plataforma Blackboard.\
-**La práctica debe desarrollarse obligatoriamente usando un repositorio
-GitHub**.
+Los estudiantes deberán comunicar a los profesores quiénes son los integrantes del grupo así como el rol que ha desempeñado cada uno de ellos en las diferentes fases. Para ello, tras finalizar la práctica, deberán añadir esta información en un archivo denominado **practica2.odt** que deberá formar parte del envío de la práctica en la plataforma Blackboard.\ **La práctica debe desarrollarse obligatoriamente usando un repositorio GitHub**.
 
 <div style="background-color: #704214">
     <b>¡IMPORTANTE!</b><br>
@@ -146,18 +129,12 @@ GitHub**.
 
 ### Durante la realización de la práctica
 
-La práctica tiene una duración estimada de cuatro sesiones presenciales
-en el laboratorio en las que deben realizarse las siete fases que
-componen la práctica. En cada sesión, el profesor del laboratorio
-proporcionará inicialmente los detalles oportunos sobre el desarrollo de
-cada fase.
+La práctica tiene una duración estimada de cuatro sesiones presenciales en el laboratorio en las que deben realizarse las siete fases que componen la práctica. En cada sesión, el profesor del laboratorio
+proporcionará inicialmente los detalles oportunos sobre el desarrollo de cada fase.
 
 ### Tras finalizar la práctica
 
-Una vez finalizada la práctica y subida a la plataforma Blackboard
-siguiendo exactamente las indicaciones del enlace asociado, los
-estudiantes deben realizar una breve prueba individual de evaluación de
-la práctica (**$PL_{2}$**) en la plataforma.
+Una vez finalizada la práctica y subida a la plataforma Blackboard siguiendo exactamente las indicaciones del enlace asociado, los estudiantes deben realizar una breve prueba individual de evaluación de la práctica (**$PL_{2}$**) en la plataforma.
 
 ## Tarea 3 - Prueba individual
 <div>
@@ -175,9 +152,7 @@ la práctica (**$PL_{2}$**) en la plataforma.
 
 ## Evaluación
 
-La práctica representa el 15% de la nota de la asignatura, es decir 1.5
-puntos de la nota final. Dicha nota está formada por 3 apartados
-diferentes:
+La práctica representa el 15% de la nota de la asignatura, es decir 1.5 puntos de la nota final. Dicha nota está formada por 3 apartados diferentes:
 
 -   Entrega de la práctica (prueba grupal: **$E_{2}$**); común a todos
     los miembros del grupo): **0.5 puntos**. Esta prueba será evaluada
