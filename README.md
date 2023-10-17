@@ -111,13 +111,6 @@ posibilidades en las Tablas 1, 2 y 3. En caso de que dos o más alumnos no se po
 de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera aleatoria.
 
 :::
-    |**USUARIO**  | **FASE 1** | **FASE 2** | **FASE 3** | **FASE 4** | **FASE 5** | **FASE 6** | **FASE 7**  |
-    |-------------|------------|----------- |----------- |----------- |----------- |----------- |-----------  |
-    |**ALUMNO 1** |    P       |    E       |    D       |      L     |     D      |     P      |     E       |
-    |**ALUMNO 2** |    L       |    P       |    P       |      E     |     E      |     L      |     D       |
-    |**ALUMNO 3** |    D       |    L       |    E       |      P     |     P      |     D      |     L       |
-    |**ALUMNO 4** |    E       |    D       |    L       |      D     |     L      |     E      |     P       |
-
   : División de tareas por usuario (4 alumnos).
 :::
 
