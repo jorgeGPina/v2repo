@@ -122,10 +122,11 @@ de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera al
 :::
 
 | **USUARIO**  | **FASE 1** | **FASE 2** | **FASE 3** | **FASE 4** | **FASE 5** | **FASE 6** | **FASE 7** |
-|--------------|:----------:|:----------:|:----------:|------------|------------|------------|------------|
+|--------------|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|-----------:|
 | **ALUMNO 1** |    P       |       E    |      D     |      L     |      D     |      P     |      E     |
-| **ALUMNO 2** |            |{% octicon "check" aria-label="Supported" %}|{% octicon "x" aria-label="Not supported" %}|{% octicon "check" aria-label="Supported" %}| Location of package manifests  |
-| **ALUMNO 3** |{% octicon "check" aria-label="Supported" %}|{% octicon "x" aria-label="Not supported" %}|{% octicon "check" aria-label="Supported" %}| How often to check for updates |
+| **ALUMNO 2** |    L       |       P    |      P     |      E     |      E     |      L     |      D     |
+| **ALUMNO 3** |    D       |       L    |      E     |      P     |      P     |      D     |      L     |
+| **ALUMNO 4** |    E       |       D    |      L     |      D     |      L     |      E     |      P     |
 
 ::: {#table:eleccionActiv2}
    **USUARIO**    **FASE 1**   **FASE 2**   **FASE 3**   **FASE 4**   **FASE 5**   **FASE 6**   **FASE 7**
