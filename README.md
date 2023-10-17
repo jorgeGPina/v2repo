@@ -1,22 +1,11 @@
-::: center
-UNIVERSIDAD DE ALCALÁ
-:::
+# <center>UNIVERSIDAD DE ALCALÁ</center>
+## <center>Departamento de Automática</center>
+### <center>Grado en Ingeniería Informática</center>
 
-::: center
-Departamento de Automática
-:::
+$\ $
 
-::: center
-Grado en Ingeniería Informática
-:::
-
-::: center
-Instrucciones para la práctica 2
-:::
-
-::: center
-Sistemas Operativos
-:::
+# <center>Instrucciones para la práctica 2</center>
+## <center>Sistemas Operativos</center>
 
 $\ $
 
@@ -117,24 +106,17 @@ Las fases de la práctica son las siguientes:
 
 7.  Implementación de tuberías o *pipes*.
 
-Para determinar las tareas de cada alumno, a continuación se ilustran
-las diferentes posibilidades en las Tablas
-[1](#table:eleccionActiv1){reference-type="ref"
-reference="table:eleccionActiv1"},
-[2](#table:eleccionActiv2){reference-type="ref"
-reference="table:eleccionActiv2"} y
-[3](#table:eleccionActiv3){reference-type="ref"
-reference="table:eleccionActiv3"}. En caso de que dos o más alumnos no
-se pongan de acuerdo sobre su rol a lo largo de la actividad, se
-determinará de manera aleatoria.
+Para determinar las tareas de cada alumno, a continuación se ilustran las diferentes
+posibilidades en las Tablas 1, 2 y 3. En caso de que dos o más alumnos no se pongan
+de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera aleatoria.
 
 ::: {#table:eleccionActiv1}
-   **USUARIO**    **FASE 1**   **FASE 2**   **FASE 3**   **FASE 4**   **FASE 5**   **FASE 6**   **FASE 7**
-  -------------- ------------ ------------ ------------ ------------ ------------ ------------ ------------
-   **ALUMNO 1**       P            E            D            L            D            P            E
-   **ALUMNO 2**       L            P            P            E            E            L            D
-   **ALUMNO 3**       D            L            E            P            P            D            L
-   **ALUMNO 4**       E            D            L            D            L            E            P
+    |**USUARIO**  | **FASE 1** | **FASE 2** | **FASE 3** | **FASE 4** | **FASE 5** | **FASE 6** | **FASE 7**  |
+    -------------- ------------ ------------ ------------ ------------ ------------ ------------ ------------ |
+    **ALUMNO 1**  |    P       |    E       |    D       |      L     |     D      |     P      |     E       |
+    **ALUMNO 2**  |    L       |    P       |    P       |      E     |     E      |     L      |     D       |
+    **ALUMNO 3**  |    D       |    L       |    E       |      P     |     P      |     D      |     L       |
+    **ALUMNO 4**  |    E       |    D       |    L       |      D     |     L      |     E      |     P       |
 
   : División de tareas por usuario (4 alumnos).
 :::
