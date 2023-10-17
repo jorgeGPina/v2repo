@@ -1,0 +1,3 @@
+.PHONY: clean
+clean: 
+<TAB> rm -f archej *.o

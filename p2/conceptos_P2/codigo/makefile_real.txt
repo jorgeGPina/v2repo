@@ -1,0 +1,21 @@
+CC = gcc
+CFLAGS = -g -Wall
+
+minishell: libmemoria.o entrada_minishell.o ejecutar.o minishell.o libshell.a
+	$(CC) $(CFLAGS) libmemoria.o entrada_minishell.o ejecutar.o minishell.o -L./ -lshell -o minishell
+
+libmemoria.o: libmemoria.c libmemoria.h
+	$(CC) $(CFLAGS) -c libmemoria.c
+
+entrada_minishell.o: entrada_minishell.c entrada_minishell.h
+	$(CC) $(CFLAGS) -c entrada_minishell.c
+
+ejecutar.o: ejecutar.c ejecutar.h minishell.h parser.h libmemoria.h
+	$(CC) $(CFLAGS) -c ejecutar.c
+
+minishell.o: minishell.c minishell.h internas.h ejecutar.h
+	$(CC) $(CFLAGS) -c minishell.c
+	
+.PHONY: clean
+clean: 
+	rm -f minishell *.o

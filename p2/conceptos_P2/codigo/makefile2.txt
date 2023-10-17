@@ -1,0 +1,12 @@
+CC = gcc
+CFLAGS = -g -Wall
+
+saludos: saludos.o 
+	$(CC) $(CFLAGS) saludos.o -o saludos
+
+saludos.o: saludos.c saludos.h
+	$(CC) $(CFLAGS) -c saludos.c
+	
+.PHONY: clean
+clean: 
+	rm -f saludos *.o
