@@ -110,7 +110,7 @@ Para determinar las tareas de cada alumno, a continuación se ilustran las difer
 posibilidades en las Tablas 1, 2 y 3. En caso de que dos o más alumnos no se pongan
 de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera aleatoria.
 
-::: {#table:eleccionActiv1}
+:::
     |**USUARIO**  | **FASE 1** | **FASE 2** | **FASE 3** | **FASE 4** | **FASE 5** | **FASE 6** | **FASE 7**  |
     |-------------|------------|----------- |----------- |----------- |----------- |----------- |-----------  |
     |**ALUMNO 1** |    P       |    E       |    D       |      L     |     D      |     P      |     E       |
