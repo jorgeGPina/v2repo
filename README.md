@@ -176,7 +176,7 @@ la prueba, como las restantes, se detallará tanto en la plataforma
 Blackboard como en el propio laboratorio, el primer día de realización
 de la práctica. Los alumnos pueden consultar la fecha de esta prueba en
 la página siguiente de la Escuela Politécnica Superior:
-<http://escuelapolitecnica.uah.es/estudiantes/gcalendar-2GII.asp>
+<http://escuelapolitecnica.uah.es/estudiantes/gcalendar-2GII.asp><br>
 Cabe recordar que estas preguntas pueden estar relacionadas con alguna fase
 que ha realizado un compañero por lo que es imprescindible comprender
 toda la práctica desde todos los roles.
