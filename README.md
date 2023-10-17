@@ -1,3 +1,7 @@
+<div style="text-align:center">
+    <img src="https://www.uah.es/export/sites/uah/.galleries/imagenes-estructura/logo1.png_105938625.png" alt="UAH">
+</div>
+
 ![UAH](https://www.uah.es/export/sites/uah/.galleries/imagenes-estructura/logo1.png_105938625.png)
 ## <center>Departamento de Automática</center>
 ### <center>Grado en Ingeniería Informática</center>
