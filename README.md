@@ -121,9 +121,9 @@ de acuerdo sobre su rol a lo largo de la actividad, se determinará de manera al
   : División de tareas por usuario (4 alumnos).
 :::
 
-| Option              | Required | Security Updates | Version Updates | Description                    |
-|---------------------|:--------:|:----------------:|:---------------:|--------------------------------|
-| **ALUMNO 1** |{% octicon "check" aria-label="Supported" %}|{% octicon "x" aria-label="Not supported" %}|{% octicon "check" aria-label="Supported" %}| Package manager to use         |
+| **USUARIO**  | **FASE 1** | **FASE 2** | **FASE 3** | **FASE 4** |
+|--------------|:----------:|:----------:|:----------:|------------|
+| **ALUMNO 1** |    P       |       E    |      D     |      L     |
 | **ALUMNO 2**         |{% octicon "check" aria-label="Supported" %}|{% octicon "x" aria-label="Not supported" %}|{% octicon "check" aria-label="Supported" %}| Location of package manifests  |
 | **ALUMNO 3** |{% octicon "check" aria-label="Supported" %}|{% octicon "x" aria-label="Not supported" %}|{% octicon "check" aria-label="Supported" %}| How often to check for updates |
 
