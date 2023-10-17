@@ -161,7 +161,7 @@ la práctica (**$PL_{2}$**) en la plataforma.
 
 ## Tarea 3 - Prueba individual
 <div>
-    La prueba $PL_{2}$ se realizará en horario de laboratorio, en el grupo
+    La prueba <b>PL<sub>2</sub></b> se realizará en horario de laboratorio, en el grupo
     al que pertenezca cada alumno. La fecha y hora, así como el formato de
     la prueba, como las restantes, se detallará tanto en la plataforma
     Blackboard como en el propio laboratorio, el primer día de realización
