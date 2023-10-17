@@ -1,8 +1,6 @@
 # <center>Instrucciones para la práctica 2</center>
-## <center>Sistemas Operativos</center>
 
-
-### Antes de comenzar la práctica
+## Antes de comenzar la práctica
 
 Esta práctica se realizará, en general, en **grupos de cuatro
 estudiantes**. Se valorará con el profesor posibles excepciones, de
@@ -11,7 +9,7 @@ alumnos. Asimismo, **los miembros de cada grupo deben pertenecer al
 mismo horario de laboratorio** salvo motivos justificados que también
 estimará el profesor.
 
-### Tarea 1 - Organización
+## Tarea 1 - Organización
 
 La primera tarea de los estudiantes para esta práctica será determinar
 cuáles serán sus respectivas responsabilidades en cada una de las siete
@@ -129,7 +127,7 @@ Tabla 3: División de tareas por usuario (2 alumnos)
 | **ALUMNO 2** |   L y D    |    D y P   |    D y E   |    L y E   |    P y L   |    D y E   |    P y L   |
 
 
-### Tarea 2 - Planificación
+## Tarea 2 - Planificación
 
 Los estudiantes deberán comunicar a los profesores quiénes son los
 integrantes del grupo así como el rol que ha desempeñado cada uno de
@@ -146,7 +144,7 @@ GitHub**.
     CUALQUIER TAREA DE LA PRÁCTICA PUEDE SER OBJETO DE PREGUNTA EN LAS DIFERENTES PRUEBAS DE EVALUACIÓN.
 </div>
 
-#### Durante la realización de la práctica
+### Durante la realización de la práctica
 
 La práctica tiene una duración estimada de cuatro sesiones presenciales
 en el laboratorio en las que deben realizarse las siete fases que
@@ -154,14 +152,14 @@ componen la práctica. En cada sesión, el profesor del laboratorio
 proporcionará inicialmente los detalles oportunos sobre el desarrollo de
 cada fase.
 
-#### Tras finalizar la práctica
+### Tras finalizar la práctica
 
 Una vez finalizada la práctica y subida a la plataforma Blackboard
 siguiendo exactamente las indicaciones del enlace asociado, los
 estudiantes deben realizar una breve prueba individual de evaluación de
 la práctica (**$PL_{2}$**) en la plataforma.
 
-### Tarea 3 - Prueba individual
+## Tarea 3 - Prueba individual
 
 La prueba $PL_{2}$ se realizará en horario de laboratorio, en el grupo
 al que pertenezca cada alumno. La fecha y hora, así como el formato de
@@ -174,7 +172,7 @@ recordar que estas preguntas pueden estar relacionadas con alguna fase
 que ha realizado un compañero por lo que es imprescindible comprender
 toda la práctica desde todos los roles.
 
-### Evaluación
+## Evaluación
 
 La práctica representa el 15% de la nota de la asignatura, es decir 1.5
 puntos de la nota final. Dicha nota está formada por 3 apartados
