@@ -6,31 +6,32 @@ Grado en Ingeniería Informática
 ```
 # Práctica 3: Servicios POSIX para la
 
-# gestión de hilos en Linux
+# Gestión de hilos en Linux
 
 ### Sistemas Operativos
 
 
 ## Índice
 
-1. [Competencias asociadas al ejercicio](##1._Competencias_asociadas_al_ejercicio)
-2. [Introducción](##2.Introducción)
-3. [Programación con hilos](##3-programación-con-hilos)
-4. [Servicios POSIX para la gestión básica de hilos](##4-servicios-posix-para-la-gestión-básica-de-hilos)
-   4.1. [Servicio POSIX pthread_create()](##41-servicio-posix-pthread_create)
-   4.2. [Servicio POSIX pthread_exit()](##42-servicio-posix-pthread_exit)
-   4.3. [Servicio POSIX pthread_join()](##43-servicio-posix-pthread_join)
-   4.4. [Servicio POSIX pthread_self()](##44-servicio-posix-pthread_self)
-5. [Sincronización de hilos](##5-sincronización-de-hilos)
-   5.1. [Sincronización de hilos con POSIX](##51-sincronización-de-hilos-con-posix)
-   5.2. [Servicio POSIX pthread_mutex_init()](##52-servicio-posixpthread_mutex_init)
-   5.3. [Servicio POSIX pthread_mutex_destroy()](##53-servicio-posix-pthread_mutex_destroy)
-   5.4. [Servicio POSIX pthread_mutex_lock()](##54-servicio-posix-pthread_mutex_lock)
-   5.5. [Servicio POSIX pthread_mutex_unlock()](##55-servicio-posix-pthread_mutex_unlock)
-6. [Compilación de un programa con POSIX Threads](##6-compilación-de-un-programa-con-posix-threads)
-7. [Ejercicio](##7-ejercicio)
-8. [Evaluación](##8-evaluación)
-9. [Material complementario](##9-material-complementario)
+1. [Competencias asociadas al ejercicio](##1.-Competencias-asociadas-al-ejercicio)
+2. [Introducción](##2.-Introducción)
+3. [Programación con hilos](##3.-Programación-con-hilos)
+4. [Servicios POSIX para la gestión básica de hilos](##4.-Servicios-POSIX-para-la-gestión-básica-de-hilos)
+   1. [Servicio POSIX pthread_create()](###4.1.-Servicio-POSIX-`pthread_create()`)
+   2. [Servicio POSIX pthread_exit()](###4.2.-Servicio-POSIX-`pthread_exit()`)
+   3. [Servicio POSIX pthread_join()](###4.3.-Servicio-POSIX-`pthread_join()`)
+   4. [Servicio POSIX pthread_self()](###4.4.-Servicio-POSIX-`pthread_self()`)
+5. [Sincronización de hilos](##5.-Sincronización-de-hilos)
+   1. [Sincronización de hilos con POSIX](###5.1.-Sincronización-de-hilos-con-POSIX)
+   2. [Servicio POSIX pthread_mutex_init()](###5.2.-Servicio-POSIX-`pthread_mutex_init()`)
+   3. [Servicio POSIX pthread_mutex_destroy()](###5.3.-Servicio-POSIX-`pthread_mutex_destroy()`)
+   4. [Servicio POSIX pthread_mutex_lock()](###5.4.-Servicio-POSIX-`pthread_mutex_lock()`)
+   5. [Servicio POSIX pthread_mutex_unlock()](###5.5.-Servicio-POSIX-`pthread_mutex_unlock()`)
+6. [Compilación de un programa con POSIX Threads](##6.-Compilación-de-un-programa-con-POSIX-Threads)
+7. [Ejercicio](##7.-Ejercicio)
+8. [Evaluación](##8.-Evaluación)
+9. [Material complementario](##9.-Material-complementario)
+
 
 ## 1. Competencias asociadas al ejercicio
 
