@@ -13,27 +13,27 @@ Grado en Ingeniería Informática
 
 ## Índice
 
-1. [Competencias asociadas al ejercicio](##1.-Competencias-asociadas-al-ejercicio)
-2. [Introducción](##2.-Introducción)
-3. [Programación con hilos](##3.-Programación-con-hilos)
-4. [Servicios POSIX para la gestión básica de hilos](##4.-Servicios-POSIX-para-la-gestión-básica-de-hilos)
-   1. [Servicio POSIX pthread_create()](###4.1.-Servicio-POSIX-`pthread_create()`)
-   2. [Servicio POSIX pthread_exit()](###4.2.-Servicio-POSIX-`pthread_exit()`)
-   3. [Servicio POSIX pthread_join()](###4.3.-Servicio-POSIX-`pthread_join()`)
-   4. [Servicio POSIX pthread_self()](###4.4.-Servicio-POSIX-`pthread_self()`)
-5. [Sincronización de hilos](##5.-Sincronización-de-hilos)
-   1. [Sincronización de hilos con POSIX](###5.1.-Sincronización-de-hilos-con-POSIX)
-   2. [Servicio POSIX pthread_mutex_init()](###5.2.-Servicio-POSIX-`pthread_mutex_init()`)
-   3. [Servicio POSIX pthread_mutex_destroy()](###5.3.-Servicio-POSIX-`pthread_mutex_destroy()`)
-   4. [Servicio POSIX pthread_mutex_lock()](###5.4.-Servicio-POSIX-`pthread_mutex_lock()`)
-   5. [Servicio POSIX pthread_mutex_unlock()](###5.5.-Servicio-POSIX-`pthread_mutex_unlock()`)
-6. [Compilación de un programa con POSIX Threads](##6.-Compilación-de-un-programa-con-POSIX-Threads)
-7. [Ejercicio](##7.-Ejercicio)
-8. [Evaluación](##8.-Evaluación)
-9. [Material complementario](##9.-Material-complementario)
+1. [Competencias asociadas al ejercicio](#1-competencias-asociadas-al-ejercicio)
+2. [Introducción](#2-introducción)
+3. [Programación con hilos](#3-programación-con-hilos)
+4. [Servicios POSIX para la gestión básica de hilos](#4-servicios-posix-para-la-gestión-básica-de-hilos)
+   1. [Servicio POSIX pthread_create()](#41-servicio-posix-pthread_create)
+   2. [Servicio POSIX pthread_exit()](#42-servicio-posix-pthread_exit)
+   3. [Servicio POSIX pthread_join()](#43-servicio-posix-pthread_join)
+   4. [Servicio POSIX pthread_self()](#44-servicio-posix-pthread_self)
+5. [Sincronización de hilos](#5-sincronización-de-hilos)
+   1. [Sincronización de hilos con POSIX](#51-sincronización-de-hilos-con-posix)
+   2. [Servicio POSIX pthread_mutex_init()](#52-servicio-posix-pthread_mutex_init)
+   3. [Servicio POSIX pthread_mutex_destroy()](#53-servicio-posix-pthread_mutex_destroy)
+   4. [Servicio POSIX pthread_mutex_lock()](#54-servicio-posix-pthread_mutex_lock)
+   5. [Servicio POSIX pthread_mutex_unlock()](#55-servicio-posix-pthread_mutex_unlock)
+6. [Compilación de un programa con POSIX Threads](#6-compilación-de-un-programa-con-posix-threads)
+7. [Ejercicio](#7-ejercicio)
+8. [Evaluación](#8-evaluación)
+9. [Material complementario](#9-material-complementario)
 
 
-## 1. Competencias asociadas al ejercicio
+##Competencias asociadas al ejercicio
 
 1. Ser capaz de comprender la diferencia entre procesos pesados y procesos ligeros (hilos othreads).
 2. Ser capaz de comprender el funcionamiento de los servicios POSIX para la gestión básica de hilos (creación, espera y finalización).
@@ -43,7 +43,7 @@ Grado en Ingeniería Informática
 6. Ser capaz de expresar con claridad razonando sobre aspectos relativos a la ejecución de la simulación con hilos planteada en el ejercicio y sobre el funcionamiento de los servicios POSIX básicos de hilos.
 7. Ser capaz de desarrollar aplicaciones simples en lenguaje de programación C que permitan manejar hilos de ejecución.
 
-## 2. Introducción
+##Introducción
 
 Los procesos pesados, analizados en la práctica 3, se caracterizan por ser independientes; poseen sus propios mapa de memoria. Esta característica aporta como ventaja principal la garantía de inexistencia de intromisiones de un proceso en el espacio de memoria de otro, pero, como desventaja, dificulta el intercambio de información entre procesos forzando a utilizar alguno de los mecanismos de comunicación entre procesos proporcionados por el sistema operativo para lograr la cooperación entre procesos. Sin embargo, la necesidad de colaboración entre procesos y, por tanto, de comunicación entre ellos, surge en muchas ocasiones cuando se ejecutan aplicaciones (ejecución de tuberías, intercambio de información entre aplicaciones a través del portapapeles, intercambio de información en aplicaciones de tipo Cliente/Servidor, etc.). Los hilos o procesos ligeros (threads) surgieron como solución a esta problemática. 
 Un hilo se puede definir como una entidad básica de ejecución que simplemente posee su contador de programa, los registros del procesador y la pila. Para poder ejecutarse, un hilo debe pertenecer a una entidad de mayor nivel denominada tarea (task) sin capacidad de ejecución (se ejecutan sus hilos, denominadoshilos cooperantes, no la tarea). En definitiva, existen varias “entidades de ejecución activas” (los diferentes hilos que ejecutarán una función asociada a ellos) en una misma aplicación. La tarea sólo posee los recursos (memoria, archivos, etc.) compartidos por sus hilos. La compartición entre los hilos cooperantes del espacio de direccionamiento perteneciente a su tarea (código, datos globales y área deheap<sup>1</sup>) facilita el acceso a la información común y, por tanto, la cooperación entre ellos. 
