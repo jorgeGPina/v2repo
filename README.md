@@ -10,7 +10,7 @@
 
 1. [Práctica 1: Comandos de Unix]()
 2. [Práctica 2: Herramientas de desarrollo y Servicios POSIX para la gestión de procesos ](p2/README_P2.md)
-3. [Práctica 3: ...]()
+3. [Práctica 3: Gestión de hilos en Linux](p3/README_P3.md)
 
 
 
