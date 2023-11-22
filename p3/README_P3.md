@@ -3,6 +3,7 @@
 ```
 Departamento de Automática
 Grado en Ingeniería Informática
+Doble grado de Informática y Administración de Empresas.
 ```
 # Práctica 3: Servicios POSIX para la
 
