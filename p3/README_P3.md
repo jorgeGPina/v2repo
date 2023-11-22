@@ -157,7 +157,7 @@ lock(mutex);
 /* código sección crítica */
 unlock(mutex);
 ```
-![Descripción del funcionamiento del mutex](/img/mutex.png)
+![Descripción del funcionamiento del mutex](./img/mutex.png)
 
 ### 5.2. Servicio POSIX `pthread_mutex_init()`
 
