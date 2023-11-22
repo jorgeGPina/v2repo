@@ -32,8 +32,7 @@ Grado en Ingeniería Informática
 8. [Evaluación](#8-evaluación)
 9. [Material complementario](#9-material-complementario)
 
-
-##Competencias asociadas al ejercicio
+## Competencias asociadas al ejercicio
 
 1. Ser capaz de comprender la diferencia entre procesos pesados y procesos ligeros (hilos othreads).
 2. Ser capaz de comprender el funcionamiento de los servicios POSIX para la gestión básica de hilos (creación, espera y finalización).
@@ -43,7 +42,7 @@ Grado en Ingeniería Informática
 6. Ser capaz de expresar con claridad razonando sobre aspectos relativos a la ejecución de la simulación con hilos planteada en el ejercicio y sobre el funcionamiento de los servicios POSIX básicos de hilos.
 7. Ser capaz de desarrollar aplicaciones simples en lenguaje de programación C que permitan manejar hilos de ejecución.
 
-##Introducción
+## Introducción
 
 Los procesos pesados, analizados en la práctica 3, se caracterizan por ser independientes; poseen sus propios mapa de memoria. Esta característica aporta como ventaja principal la garantía de inexistencia de intromisiones de un proceso en el espacio de memoria de otro, pero, como desventaja, dificulta el intercambio de información entre procesos forzando a utilizar alguno de los mecanismos de comunicación entre procesos proporcionados por el sistema operativo para lograr la cooperación entre procesos. Sin embargo, la necesidad de colaboración entre procesos y, por tanto, de comunicación entre ellos, surge en muchas ocasiones cuando se ejecutan aplicaciones (ejecución de tuberías, intercambio de información entre aplicaciones a través del portapapeles, intercambio de información en aplicaciones de tipo Cliente/Servidor, etc.). Los hilos o procesos ligeros (threads) surgieron como solución a esta problemática. 
 Un hilo se puede definir como una entidad básica de ejecución que simplemente posee su contador de programa, los registros del procesador y la pila. Para poder ejecutarse, un hilo debe pertenecer a una entidad de mayor nivel denominada tarea (task) sin capacidad de ejecución (se ejecutan sus hilos, denominadoshilos cooperantes, no la tarea). En definitiva, existen varias “entidades de ejecución activas” (los diferentes hilos que ejecutarán una función asociada a ellos) en una misma aplicación. La tarea sólo posee los recursos (memoria, archivos, etc.) compartidos por sus hilos. La compartición entre los hilos cooperantes del espacio de direccionamiento perteneciente a su tarea (código, datos globales y área deheap<sup>1</sup>) facilita el acceso a la información común y, por tanto, la cooperación entre ellos. 
@@ -94,7 +93,7 @@ El servicio POSIX `pthread_create()` permite crear inmediatamente un hilo en est
 int pthread_create(pthread_t *thread, const pthread_attr_t *attr,
 void *(* start_routine)(void *), void *arg);
 ```
-####Parámetros
+#### Parámetros
 **thread** si la llamada tiene éxito, esta variable contiene el identificador del hilo necesario para realizar posteriormente acciones sobre él.
 
 **attr** es el objeto atributo que contiene las características del hilo creado y que se puede inicializar previamente con el correspondiente servicio POSIX para asignar al hilo los atributos que queramos (por ejemplo: prioridad, algoritmo de planificación asociado, etc.). Si se especificaNULL, la biblioteca le asignará al hilo unos atributos por defecto.
@@ -167,7 +166,7 @@ El servicio POSIXpthread_mutex_init()inicializa unmutex. Hay que invocarla antes
 int pthread_mutex_init(pthread_mutex_t *mutex,
 const pthread_mutex_attr_t *attr);
 ```
-####Parámetros
+#### Parámetros
 **mutex** es un puntero a un parámetro de tipopthread_mutex_tque representa elmutex que se va a inicializar.
 
 **attr** es un puntero a una estructura del tipopthread_mutex_attr_tque sirve para definir el tipo de mutex deseado. Si el valor esNULL(recomendado), la biblioteca le asignará un valor por defecto.
@@ -183,7 +182,7 @@ El servicio POSIXpthread_mutex_destroy()destruye unmutex. Invocar este servicio 
 ```
 int pthread_mutex_destroy(pthread_mutex_t *mutex);
 ```
-####Parámetros
+#### Parámetros
 **mutex** es un puntero a un parámetro de tipopthread_mutex_tque representa elmutex
 que se va a destruir.
 
@@ -194,7 +193,7 @@ El servicio POSIXpthread_mutex_lock()bloquea o cierra el` continúa con la ejecu
 ```
 int pthread_mutex_lock(pthread_mutex_t *mutex);
 ```
-####Parámetros
+#### Parámetros
 **mutex** es un puntero a un parámetro de tipopthread_mutex_tque representa elmutex que se va a bloquear o cerrar.
 
 Cuando se ejecuta esta función, si el cerrojo está abierto o desbloqueado, se cierra (bloquea) y el hilo invocador de esta función pasa a ser el propietario delmutex. Si, por el contrario, cuando se ejecutapthread_mutex_lock(), elmutexestá cerrado, esta operaciónlocksuspende al hilo invocador de la función que esperará hasta que otro hilo desbloquee el cerrojo.
@@ -205,7 +204,7 @@ El servicio POSIXpthread_mutex_unlock()libera el bloqueo que se tuviera sobre el
 ```
 int pthread_mutex_unlock(pthread_mutex_t *mutex);
 ```
-####Parámetros
+#### Parámetros
 **mutex** es un puntero a un parámetro de tipopthread_mutex_tque representa elmutex que se va a desbloquear o abrir.
 
 Si cuando se realiza esta operación hay ya hilos suspendidos en espera de poseer este cerrojo omutex, se selecciona el más prioritario y se permite que cierre elmutexde nuevo.
