@@ -323,5 +323,5 @@ La práctica 3 representa el 10 % de la nota de la asignatura, es decir 1 punto 
 > (<sup>4</sup>) La práctica puede realizarse opcionalmente de forma individual.
 
 ## 9. Material complementario
-[LLNL HPC POSIX Tutorials](https://hpc-tutorials.llnl.gov/posix/)
+[LLNL HPC POSIX Tutorials](https://hpc-tutorials.llnl.gov/posix/)<br>
 [Kent State University - System Programming: Multithreading](https://www.cs.kent.edu/~ruttan/sysprog/lectures/multi-thread/multi-thread.html)
