@@ -295,15 +295,23 @@ int main(void) {
 2. ¿Qué efecto produce la función `rand_r()` en la función `funcion_coche()` que ejecuta cada hilo?
 3. ¿Qué ocurre si el hilo inicial (que ejecuta la función `main()`) no espera la finalización del resto de hilos?
 4. El enunciado especifica que, cuando todos los coches hayan llegado a la meta, el hilo padre se encargará de mostrar en pantalla la clasificación final. Respecto a esta funcionalidad, responda a las siguientes cuestiones:
-4.1 ¿Es correcto pensar en obtener la clasificación mediante una solución en la que el padre, a medida que vaya finalizando cada hilo (coche) por el que espera (es decir, tras el código incluido en las líneas 60 a 65), vaya imprimiendo el identificador del coche que ha finalizado? Razone la respuesta.
-4.2 Resuelva el problema planteado en este apartado ejecutando los pasos que a continuación se describen:
-a) Declare las siguientes variables globales:
-`volatile int clasificacionFinal[N_COCHES]`
-`volatile int finalCarrera=0`
-b) Inserte las líneas de código que considere necesarias en el espacio indicado mediante el comentario `CODIGO 4` para que, al finalizar cada hilo coche la carrera, almacene su identificador (campoid) en la siguiente posición vacía de `clasificacionFinal[]`.
-c) ¿Se podrían producir errores al ejecutar las operaciones anteriores sin ningún tipo de control? ¿Y con la función `rand_r()`? Razone claramente la respuesta. En caso afirmativo, indique cómo solucionaría el problema mencionando alguna de las funciones incluidas en la Tabla 1 (se pide sólo indicar las funciones sin codificar en este apartado).
-d) Si la respuesta a la pregunta anterior ha sido afirmativa, codifique correctamente el programa incluyendo la solución al problema indicado.
-e) Inserte las líneas de código que considere necesarias en el espacio indicado mediante el comentario `CODIGO 5` para que el hilo padre, una vez que todos los hilos hayan llegado a la meta, muestre en pantalla la clasificación final de la carrera accediendo a cada una de las posiciones del array `clasificacionFinal[]`.
+    
+    4.1 ¿Es correcto pensar en obtener la clasificación mediante una solución en la que el padre, a medida que vaya finalizando cada hilo (coche) por el que espera (es decir, tras el código incluido en las líneas 60 a 65), vaya imprimiendo el identificador del coche que ha finalizado? Razone la respuesta.
+
+    4.2 Resuelva el problema planteado en este apartado ejecutando los pasos que a continuación se describen:
+
+    a) Declare las siguientes variables globales:
+            `volatile int clasificacionFinal[N_COCHES]`
+            `volatile int finalCarrera=0`
+
+    b) Inserte las líneas de código que considere necesarias en el espacio indicado mediante el comentario `CODIGO 4` para que, al finalizar cada hilo coche la carrera, almacene su identificador (campoid) en la siguiente posición vacía de `clasificacionFinal[]`.
+
+    c) ¿Se podrían producir errores al ejecutar las operaciones anteriores sin ningún tipo de control? ¿Y con la función `rand_r()`? Razone claramente la respuesta. En caso afirmativo, indique cómo solucionaría el problema mencionando alguna de las funciones incluidas en la Tabla 1 (se pide sólo indicar las funciones sin codificar en este apartado).
+
+    d) Si la respuesta a la pregunta anterior ha sido afirmativa, codifique correctamente el programa incluyendo la solución al problema indicado.
+    
+    e) Inserte las líneas de código que considere necesarias en el espacio indicado mediante el comentario `CODIGO 5` para que el hilo padre, una vez que todos los hilos hayan llegado a la meta, muestre en pantalla la clasificación final de la carrera accediendo a cada una de las posiciones del array `clasificacionFinal[]`.
+
 5. Realice un `makefile` que permita generar correctamente la aplicación y que incluya un objetivo ficticio `clean`, tal y como ya se ha explicado en el laboratorio. Se valorará además la estructuración del código de la aplicación en sendos archivos `fuentes.c` e incluir un archivo de `cabecerasimula_car.h` con los contenidos adecuados.
 
 >Es obligatoria la realización de la práctica en un repositorio GitHub privado.
