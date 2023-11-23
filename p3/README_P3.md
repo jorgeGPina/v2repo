@@ -206,7 +206,7 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex);
 #### Parámetros
 **mutex** es un puntero a un parámetro de tipo `pthread_mutex_t` que representa el `mutex` que se va a desbloquear o abrir.
 
-Si cuando se realiza esta operación hay ya hilos suspendidos en espera de poseer este cerrojo o `mutex`, se selecciona el más prioritario y se permite que cierre el mutex de nuevo.
+Si cuando se realiza esta operación hay ya hilos suspendidos en espera de poseer este cerrojo o `mutex`, se selecciona el más prioritario y se permite que cierre el `mutex` de nuevo.
 
 ## 6. Compilación de un programa con POSIX Threads
 
