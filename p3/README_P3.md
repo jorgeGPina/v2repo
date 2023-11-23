@@ -120,7 +120,7 @@ Parámetros
 ```
 **thread** identificador del hilo por cuya terminación se está esperando al invocar a esta función.
 
-**status** si status no es NULL, el valor o resultado devuelto por el hilo con identificador thread cuando finaliza (valor del argumento en la función `pthread_exit()` se almacena en la dirección indicada por status. Si se especifica NULL, indica que no interesa ese valor.
+**status** si status no es NULL, el valor o resultado devuelto por el hilo con identificador thread cuando finaliza (valor del argumento en la función `pthread_exit()`) se almacena en la dirección indicada por status. Si se especifica NULL, indica que no interesa ese valor.
 
 >(<sup>2</sup>) Un hilo está en estado joinable por defecto. Este estado implica que, cuando termina el hilo, no se liberan sus recursos (descriptor de hilo y pila) hasta que otro hilo espere por él.
 
